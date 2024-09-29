@@ -1,0 +1,92 @@
+body {
+    background-color:rgb(178,190,181);
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    margin: 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 5px;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 5px;
+}
+
+marquee {
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    font-size: large;
+}
+
+.horizontal-container {
+    display: flex;
+    justify-content: space-around; /* Adjust spacing between items */
+    flex-wrap: wrap; /* Allow items to wrap if needed */
+    margin-top: 20px;
+}
+
+.item {
+    text-align: center;
+    margin: 20px;
+    flex: 1; /* Allow items to flexibly adjust their size */
+    display: flex;
+    flex-direction: column; /* Arrange items vertically */
+    align-items: center;
+}
+
+.horizontal-content {
+    display: flex;
+    flex-direction: column; /* Stack image and button vertically */
+    align-items: center;
+    justify-content: center;
+}
+.MyClass{
+    content:url("camera-logo1.png");
+}
+.MyClass1{
+    content:url("1.jpg");
+}
+.MyClass2{
+    content:url("6.mp4");
+}
+img {
+    max-width: 100px;
+    height: auto;
+    margin: 10px 0; /* Add some vertical margin */
+}
+
+video {
+    max-width: 300px;
+    height: auto;
+    margin: 10px 0; /* Add some vertical margin */
+}
+
+#real-time-image {
+    max-width: 100px;
+    height: 250px;
+    margin: 10px 0;
+}
+
+.btnn {
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 15px;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.btnn a {
+    color: white;
+    text-decoration: none;
+}
+

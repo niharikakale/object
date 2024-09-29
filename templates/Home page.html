@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login page</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <marquee direction="left" scroll delay=”50” scroll amount=”100”><h2 class="logo">OBJECT DETECTION</h2></div></marquee>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">SERVICE</a></li>
+                    <li><a href="#">DESIGN</a></li>
+                    <li><a href="#">CONTACT US</a></li>
+                </ul>
+            </div>
+        </div> 
+        <div class="content">
+            <h1>OBJECT DETECTION AND<br><span>RESOLUTION IN DARK</span><br> IMAGES AND VIDEOS</h1>
+            <p class="par">Object detection is a computer vision task that involves identifying and localizing objects with in an <br>image or a video.There are various features and components associated with object detection<br> techniques, each contributing to the accuracy and performance of the detection system </p>
+                <div class="form">
+                     <div class=" row justify-content-center">
+                        <div class="col-sm-6 mt-4">
+                            <h2>Login form</h2>
+                            <form action="/" method="POST">
+                                <div class="form-group">
+                                <label for="email">Email:</label>
+                                <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                                </div>
+                                <div class="form-group">
+                                <label for="pwd">Password:</label>
+                                <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="password">
+                                </div>
+
+                                <button type="submit" class="btn btn-dark">Submit</button>
+                                <a href="/sign-up" class="btn btn-primary">Register</a>
+                            </form>
+                        </div>
+
+                     </div>
+
+                    <div class="icons">
+                        <a href="https://www.facebook.com/login/"><ion-icon name="logo-facebook"></ion-icon></a>
+                        <a href="https://www.instagram.com/accounts/login/"><ion-icon name="logo-instagram"></ion-icon></a>
+                        <a href="https://twitter.com/i/flow/login"><ion-icon name="logo-twitter"></ion-icon></a>
+                        <a href="https://accounts.google.com/"><ion-icon name="logo-google"></ion-icon></a>
+                        <a href="https://login.microsoftonline.com/"><ion-icon name="logo-skype"></ion-icon></a>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
+</html>
